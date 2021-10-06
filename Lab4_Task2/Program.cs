@@ -21,11 +21,11 @@ namespace Lab4_Task2
                 N = Convert.ToInt32(Console.ReadLine());
                 if (N > 0)
                 {
-                    sumP = sumP+1;
+                    sumP = ++sumP;
                 }
                 if (N < 0)
                 {
-                    sumN = sumN+1;
+                    sumN = ++sumN;
                 }
                               
 
